@@ -27,6 +27,18 @@ st.markdown(
 # Streamlit app content
 st.write('This is the main content of the app.')
 
+# Login
+with st.form("Log"):
+    st.write("Login")
+    username = st.text_input("Username: ", placeholder="Enter your Username")
+    password = st.text_input("Password: ", placeholder="Enter your Password",type="password")
+    rm = st.checkbox("Remember me")
+    login = st.form_submit_button("Submit")
+
+pages = [st.Page("home.py", title="Home Page"), st.Page("about_us.py", title="About")]
+navigate = st.navigation(pages=pages, position="sidebar")
+
+
 # Injecting custom HTML for the footer
 st.markdown(
     """
