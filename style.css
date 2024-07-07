@@ -1,0 +1,26 @@
+.stApp{
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* style.css */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
